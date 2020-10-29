@@ -10,12 +10,12 @@ This  is a flask application that allows users to post one minute pitches and al
 [View Site]()
 
 
-<!-- ## User Story
+## User Story
 
 * Comment on the different pitches posted py other uses.
 * See the pitches posted by other uses.
 * Register to be allowed to log in to the application
-* Submit a pitch to a specific category of their choice. -->
+* Submit a pitch to a specific category of their choice.
 
 <!-- ## BDD
 | Behaviour | Input | Output |
