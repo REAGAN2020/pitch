@@ -30,12 +30,12 @@ This  is a flask application that allows users to post one minute pitches and al
 
 
 
-<!-- ## Development Installation
+## Development Installation
 To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Owiti-Charles/pitch.git
+  https://github.com/REAGAN2020/pitch.git
   ```
 2. Move to the folder and install requirements
   ```bash
@@ -54,7 +54,7 @@ To get the code..
   ```bash
   python3.8 manage.py test
   ```
-Open the application on your browser `127.0.0.1:5000`. -->
+Open the application on your browser `127.0.0.1:5000`.
 
 
 ## Technology used
