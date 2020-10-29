@@ -5,20 +5,6 @@ from .forms import PitchForm, CommentForm, UpdateProfile, CategoryForm
 from .. import db, photos
 from . import main
 
-posts = [
-    {
-        'author': 'Corey Schafer',
-        'title': 'Blog Post 1',
-        'content': 'First post content',
-        'date_posted': 'April 20, 2018'
-    },
-    {
-        'author': 'Jane Doe',
-        'title': 'Blog Post 2',
-        'content': 'Second post content',
-        'date_posted': 'April 21, 2018'
-    }
-]
 
 
 @main.route ('/')
@@ -27,7 +13,7 @@ def index():
     Function that returns index page and data
     """
     category = PitchCategory.get_categories()
-    return render_template('index.html', categories = category ,posts=posts)
+    return render_template('index.html', categories = category)
 
 @main.route('/category/new-pitch/<int:id>', methods= ['GET', 'POST'])
 @login_required

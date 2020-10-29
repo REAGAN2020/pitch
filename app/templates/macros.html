@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="background-color: rgb(224, 199, 199)">
 {% macro displayCategoryList(category_list) %}
   {% for category in category_list%}
         <div style="padding-left: 4em;">
@@ -9,7 +9,7 @@
 {% macro displayPitches(pitch_list) %}
 </div>
 {% for pitches in pitch_list %}
-  <div class="container">
+  <div class="container" style="background-color: rgb(207, 173, 173)">
   <div class="col-md-10">
         <p>{{pitches.name}}</p>
           <h3>{{pitches.pitch}}</h3>
@@ -17,14 +17,13 @@
             <button><a href=" {{url_for('.post_comment',id=pitches.id)}}">Comment</a></button>
         </div>
       </div>
-  </div>
   {% endfor %}
 <!-- {% endmacro %} -->
 
 
 {% macro displaySpecificPitch(specific_pitch_list) %}
  {% for comment in specific_pitch_list %}
-    <div class="col-md-12">
+    <div class="col-md-12" style="background-color: rgb(180, 163, 163)">
     <br>
         <p>{{comment.comment}}</p>
          <p>{{comment.time_posted.strftime("%m/%d/%Y, %H:%M")}}</p>

@@ -29,4 +29,9 @@ def make_shell_context():
 
 
 if __name__ == '__main__':
-    manager.run()
+    app.secret_key = 'SECRET_KEY'
+    app.config['SESSION_TYPE'] = 'filesystem'
+
+
+    app.debug = True
+    app.run()
