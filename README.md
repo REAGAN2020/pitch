@@ -74,7 +74,7 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Known Bugs
 
-- The delete function is not working as per now but working on how to fix it.
+<!-- - The delete function is not working as per now but working on how to fix it. -->
 - The like button is having issues that you can like upto 100time, so that will get fixed too.
 - Getting to update your profile has a problem too.
 
